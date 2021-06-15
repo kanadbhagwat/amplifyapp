@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo1.jpg';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 	<h1>Hello from KB</h1>
         <p>
-          This is a trial app by KB
+          QAint - a trial Web App by KB
         </p>
         <a
           className="App-link"
