@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,16 +7,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+	<h1>Hello from KB</h1>
+      </header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is a trial app by KB
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.indiannavy.nic.in/content/directorate-quality-assurance-naval"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go to DQA(N) Website
         </a>
       </header>
     </div>
