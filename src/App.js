@@ -6,10 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-	<h1>Hello from KB</h1>
+        <h1>QAint - QA Over Internet</h1>
         <p>
-          QAint - a trial Web App by KB
+          A trial Web App by KB
         </p>
         <a
           className="App-link"
