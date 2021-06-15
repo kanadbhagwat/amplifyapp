@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-	<img src={logo} className="App-logo" alt="logo" />
+	<img src={logo} className="App-logo" alt="logo1" />
         <h1>QAint - QA Over Internet</h1>
         <p>
           A trial Web App by KB
