@@ -13,7 +13,10 @@ const awsmobile = {
     "aws_appsync_authenticationType": "API_KEY",
     "aws_appsync_apiKey": "da2-z6htrmch7jhormxx4u63pwpx5m",
     "aws_user_files_s3_bucket": "cqaenbucket180605-staging",
-    "aws_user_files_s3_bucket_region": "ap-south-1"
+    "aws_user_files_s3_bucket_region": "ap-south-1",
+    "aws_content_delivery_bucket": "amplifyapp-20210625062701-hostingbucket-staging",
+    "aws_content_delivery_bucket_region": "ap-south-1",
+    "aws_content_delivery_url": "http://amplifyapp-20210625062701-hostingbucket-staging.s3-website.ap-south-1.amazonaws.com"
 };
 
 

@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 10,
+              "apiKeyExpirationDays": 7,
               "description": "demo"
             }
           },
@@ -28,6 +28,12 @@
   "storage": {
     "filestore": {
       "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
       "providerPlugin": "awscloudformation"
     }
   }
